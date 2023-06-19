@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+.logo{
+    display: inline-block;
+    
+}
+.menu{
+    display: inline-block;
+    float: right;
+    padding-right: 33px;
+    
+}
+.nav{
+    background-color: rgb(58, 55, 55);
+    color: white;
+    padding: 33px;
+}
+.menu ul{
+    display: flex;}
+
+.menu ul li a{
+    padding-left: 44px;
+    list-style: none;
+    color: white;
+}
+.menu ul li:hover{
+    background-color: blue;
+    color: brown;
+    border-radius: 12px;
+}
+
+/* mainka */
+.main{
+    color:white;
+    background-color: black;
+    display: inline-block;
+}
+.mahrez{
+    background-color: red;
+    color: white;
+    display: inline-block;
+}
+.abdi{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+}
+
+/*m-s*/
+.m-s{
+    background-color: white;
+}
+.sec-0{
+    background-image: url("travl-pic/pi1.jpg");
+    width: 100%;
+    height: 300px;    
+}
+.sec-1{
+    width: 900px;
+}
+.sawiro{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    min-width: 300px;
+}
+.pic img{
+    width: 200px;
+    height: 200px;
+}
+.sec-2{
+    900px
+}
+.picture{
+    display: flex;
+    gap: 20px;
+    width: 300px;
+}
+.sawir h1,p{
+    font-size: 21px;
+}
+.sawir img{
+    width: 200px;
+    height: 200px;
+}
+.ciwan{
+    margin: 44px;
+    font-size: 40px;
+    background-color: rgba(73, 68, 68,0.6);
+    padding: 44px;
+    border-radius: 80px;
+}
+/*m-i*/
+.m-i{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)) ,url("travl-pic/pexels-cátia-matos-984868.jpg");
+    background-color: rgba(58, 48, 48);
+    background-repeat: no-repeat;
+    
+   
+}
+.sawirada{ 
+    display: flex;
+    gap: 50px; 
+    margin-left: 18%;
+    padding-top: 10px;
+   
+}
+.index{
+    color: #efeff0;
+    font-size: 10px;
+    font-style: italic;
+    
+}
+.f-p{
+  
+    padding: 22px;
+    color: #faf6f6;
+    font-size: 20px;
+}
+/*m-i*/
+.lip{
+    background-image: url("travl-pic/navy-blue-concrete-wall-with-scratches.jpg");
+    background-color: rgb(67, 67, 224);
+    margin: 66px;
+    font-size: 22px;
+    color: #efeff0;
+}
+footer{
+    background-color: rgb(41, 37, 37);
+    padding: 23px;
+    color: #efeff0;
+}
